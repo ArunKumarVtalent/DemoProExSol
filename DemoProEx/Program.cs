@@ -11,6 +11,10 @@ namespace DemoProEx
             b = 20;
             res = a + b;
             Console.WriteLine("The Sum is : " + res);
+
+            res = a - b;
+            Console.WriteLine("The Sub is : " + res);
+            
             Console.WriteLine("Program Completed...!");
 
             Console.ReadKey();
