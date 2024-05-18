@@ -14,6 +14,9 @@ namespace DemoProEx
 
             res = a - b;
             Console.WriteLine("The Sub is : " + res);
+
+            res = a * b;
+            Console.WriteLine("The Mul is : " + res);
             
             Console.WriteLine("Program Completed...!");
 
