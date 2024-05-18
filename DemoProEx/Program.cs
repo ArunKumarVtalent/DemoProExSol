@@ -6,7 +6,14 @@ namespace DemoProEx
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a, b, res;
+            a = 10;
+            b = 20;
+            res = a + b;
+            Console.WriteLine("The Sum is : " + res);
+            Console.WriteLine("Program Completed...!");
+
+            Console.ReadKey();
         }
     }
 }
