@@ -20,5 +20,10 @@ namespace DemoProEx.Operations
         {
             return x + y;
         }
+
+        public int Div(int x, int y)
+        {
+            return x / y;
+        }
     }
 }
