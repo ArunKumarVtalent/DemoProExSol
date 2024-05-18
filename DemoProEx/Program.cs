@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DemoProEx.Operations;
+using System;
 
 namespace DemoProEx
 {
@@ -9,15 +10,18 @@ namespace DemoProEx
             int a, b, res;
             a = 10;
             b = 20;
-            res = a + b;
+
+            AirthmaticOperations obj = new AirthmaticOperations();
+
+            res = obj.Add(a, b);
             Console.WriteLine("The Sum is : " + res);
 
-            res = a - b;
+            res = obj.Sub(a, b);
             Console.WriteLine("The Sub is : " + res);
 
-            res = a * b;
+            res = obj.Mul(a, b);
             Console.WriteLine("The Mul is : " + res);
-            
+
             Console.WriteLine("Program Completed...!");
 
             Console.ReadKey();
